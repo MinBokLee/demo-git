@@ -41,7 +41,7 @@ public class Sample {
         this.gender = gender;
     }
 
-    public void updateName(String name){
+    public void Name(String name){
         this.name =name;
     }
 }
