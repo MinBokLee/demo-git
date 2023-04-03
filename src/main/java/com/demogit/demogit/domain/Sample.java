@@ -20,7 +20,7 @@ public class Sample {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
-    @Column(nullable = false, length = 20)
+    @Column(nullable = false, length = 30)
     private String name;
 
     @Column(nullable = false, length = 20)
