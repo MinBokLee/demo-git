@@ -1,9 +1,10 @@
+
 spring:
   # JPA Setting
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
 
   #Databas Setting
   datasource:
@@ -11,4 +12,5 @@ spring:
     url: jdbc:h2:tcp://localhost/~/testgit
     username: sa
     password:
-
+server:
+  port: 8081
