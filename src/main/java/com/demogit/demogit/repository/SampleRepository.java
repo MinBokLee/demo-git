@@ -11,5 +11,5 @@ public interface SampleRepository extends JpaRepository<Sample, Long> {
     Optional<Sample> findById(String id);
 
     Boolean existsByEmail(String email);
-    void deleteAll(String id);
+    void deleteAll(String name);
 }
