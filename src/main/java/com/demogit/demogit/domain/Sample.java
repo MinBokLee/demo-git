@@ -40,6 +40,10 @@ public class Sample {
         this.email = email;
         this.gender = gender;
     }
+
+    public void updateName(String name){
+        this.name =name;
+    }
 }
 
 
